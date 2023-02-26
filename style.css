@@ -1,0 +1,249 @@
+/* fonts */
+/* title */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+/* subtitle typeface */
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
+	background-attachment: fixed; /* continuous background */
+
+}
+
+.title {
+	font-family: 'Shrikhand', cursive;
+	font-size: 80px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+/* for all titles */
+.title, .dTitle, .cTitle, .mTitle {
+	background: -webkit-linear-gradient(#F2D0D7, #DED5F2, #ACD7F2, #C1D9CB, #F2EAD0);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0 0 0.75rem gray);
+
+}
+
+.hCaption {
+	font-family: 'Manjari', sans-serif;
+	margin: 0px;
+	font-size: 30px;
+	opacity: 40%;
+	filter: drop-shadow(0 0 0.75rem gray);
+}
+
+.credits {
+	font-family: 'Manjari', sans-serif;
+	font-size: 10px;
+	margin-top: 100px;
+
+}
+
+.title, .hCaption, .credits{
+	text-align: center;
+}
+
+.navRow {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 4em;
+}
+
+.navImg {
+	width: 110%;
+}
+
+.navImg:hover {
+	transform: translate(0px, -10px);
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.hSubtitle {
+	font-family: 'Manjari', sans-serif;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+/* diet section */
+.navbar {
+	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
+	padding: 5px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 20px;
+	
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+li {
+	font-family: 'Manjari', sans-serif;
+	font-size: 20px;
+}
+
+#navLink, #navLink:visited {
+	text-decoration: none;
+	color: #566573;
+}
+
+
+#navLink:hover {
+	padding: 10px;
+	background-image: url("https://wallpapercave.com/wp/wp4465115.jpg");
+	color: black;
+	font-weight: bolder;
+	border-radius: 10px;
+
+}
+
+#navLink.page {
+	font-weight: 900;
+	color: black;
+}
+
+.dTitle {
+	margin-top: 8rem;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+	font-size: 50px;
+}
+
+.dSubtitle {
+	/*margin-left: 2rem;
+	margin-right: 2rem;*/
+	font-family: 'Manjari', sans-serif;
+	text-align: justify;
+
+}
+
+.dImg{
+	width: 80%;
+	object-fit: fill;
+}
+
+
+.dRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.dColumn {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+/* controlled life section */
+.cTitle {
+	margin-top: 8rem;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+
+}
+
+.cSubtitle {
+	font-family: 'Manjari', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.cRow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.cColumn {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.cImg {
+	object-fit: cover;
+	width: 30%;
+	aspect-ratio: 1/1;
+}
+
+.cImg2 {
+	width: 50%;
+}
+
+
+/* minors */
+.mTitle {
+	margin-top: 8rem;
+	font-size: 50px;
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+
+}
+
+.mSubtitle {
+	font-family: 'Manjari', sans-serif;
+	text-align: justify;
+}
+
+
+.mRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.mColumn {
+	display: flex;
+	margin-left: 2em;
+	justify-content: center;
+	width: 50%;
+
+}
+
+.mColumn2 {
+	display: flex;
+	flex-direction: column;
+/*	margin-left: 2em;*/
+	justify-content: space-evenly;
+	margin-right: 10em;
+	width: 50%;
+
+}
+
+.mImg {
+	width: 70%;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+}
